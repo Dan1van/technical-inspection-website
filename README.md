@@ -24,6 +24,7 @@ pip install -r requirements.txt
 И войдите в акаунт администратора:
 
 Логин: **admin@admin.com**
+
 Пароль: **admin**
 
 
@@ -47,7 +48,16 @@ pip install -r requirements.txt
 # MAIL_DEFAULT_SENDER = 'example@example.com'
 ```
 
+* Раскомментировать функцию в файле views.py:
 
+```python
+# !!!
+# Uncomment it if you want to use Mail
+# !!!
+
+# track_number = application.unique_track_number
+# send_application_registered_msg(name, email, track_number)
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
