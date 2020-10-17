@@ -63,3 +63,5 @@ pip install -r requirements.txt
 
 # English
 
+
+A web application developed for the university project. It's made using [Flask](https://flask.palletsprojects.com/en/1.1.x/) web framework with such extensions as [flask-sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/), [flask-sequrity](https://pythonhosted.org/Flask-Security/), [flask-admin](https://flask-admin.readthedocs.io/en/latest/) and [flask-mail](https://pythonhosted.org/Flask-Mail/). Also, the project used the [wtforms](https://wtforms.readthedocs.io/en/2.3.x/fields/) library to create forms.
