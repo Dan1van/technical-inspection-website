@@ -72,3 +72,55 @@ Web application features:
 
 ## Install
 
+Clone the repository and install the requirements.
+
+```bash
+git clone https://github.com/Dan1van/technical-inspection-website.git
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the technical-inspection-website/run.py file and navigate in your browser to http://127.0.0.1:5000/.
+
+
+To enter the admin panel, go to http://127.0.0.1:5000/admin.
+
+
+And log into your administrator account:
+
+Login: **admin@admin.com**
+
+Password: **admin**
+
+### Flask-mail
+
+If you want to turn on mailing function, you need:
+
+* To configure file config.py:
+
+
+```python
+# !!!
+# Uncomment it if you want to use Mail
+# !!!
+
+# MAIL_SERVER = 'localhost'
+# MAIL_PORT = 25
+# MAIL_USE_TLS = False
+# MAIL_USE_SSL = True
+# MAIL_USERNAME = 'example@example.com'
+# MAIL_PASSWORD = '**************'
+# MAIL_DEFAULT_SENDER = 'example@example.com'
+```
+
+* Uncomment the function in views.py:
+
+```python
+# !!!
+# Uncomment it if you want to use Mail
+# !!!
+
+# track_number = application.unique_track_number
+# send_application_registered_msg(name, email, track_number)
+```
