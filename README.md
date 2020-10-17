@@ -15,9 +15,38 @@ git clone https://github.com/Dan1van/technical-inspection-website.git
 pip install -r requirements.txt
 ```
 
-## Usage
+## Использование
 
 Запустите файл technical-inspection-website/run.py и перейдите в браузере по адресу: http://127.0.0.1:5000/.
+
+Чтобы зайти в админ панель, перейдите http://127.0.0.1:5000/admin.
+
+И войдите в акаунт администратора:
+
+Логин: **admin@admin.com**
+Пароль: **admin**
+
+
+### Flask-mail
+
+Для того, чтобы работала функция отправки сообщения на email зарегистрированного в системе пользователя, требуется:
+
+* Настроить config.py:
+
+```python
+# !!!
+# Uncomment it if you want to use Mail
+# !!!
+
+# MAIL_SERVER = 'localhost'
+# MAIL_PORT = 25
+# MAIL_USE_TLS = False
+# MAIL_USE_SSL = True
+# MAIL_USERNAME = 'example@example.com'
+# MAIL_PASSWORD = '**************'
+# MAIL_DEFAULT_SENDER = 'example@example.com'
+```
+
 
 
 ## Contributing
