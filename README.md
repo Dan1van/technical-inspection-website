@@ -1,5 +1,7 @@
 # Technical Inspection website
 
+![image](https://user-images.githubusercontent.com/40074918/96339303-89562980-109c-11eb-8d34-86bf8007de0d.png)
+
 Веб-приложение, разработанное для проекта в университете. Основу составляет веб-фреймворк [Flask](https://flask.palletsprojects.com/en/1.1.x/) с дополнениями в виде библиотек: [flask-sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/), [flask-sequrity](https://pythonhosted.org/Flask-Security/), [flask-admin](https://flask-admin.readthedocs.io/en/latest/) и [flask-mail](https://pythonhosted.org/Flask-Mail/). Также в проекте была использована библиотека [wtforms](https://wtforms.readthedocs.io/en/2.3.x/fields/) для создания форм.
 
 Веб-приложение умеет:
@@ -59,10 +61,5 @@ pip install -r requirements.txt
 # send_application_registered_msg(name, email, track_number)
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+# English
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
