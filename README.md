@@ -65,3 +65,10 @@ pip install -r requirements.txt
 
 
 A web application developed for the university project. It's made using [Flask](https://flask.palletsprojects.com/en/1.1.x/) web framework with such extensions as [flask-sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/), [flask-sequrity](https://pythonhosted.org/Flask-Security/), [flask-admin](https://flask-admin.readthedocs.io/en/latest/) and [flask-mail](https://pythonhosted.org/Flask-Mail/). Also, the project used the [wtforms](https://wtforms.readthedocs.io/en/2.3.x/fields/) library to create forms.
+
+Web application features:
+* Register an application for vehicle maintenance. (You can connect the function of sending a message to a registered e-mail with the specified tracking code);
+* Track the status and data of the application by the track code.
+
+## Install
+
