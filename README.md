@@ -11,7 +11,8 @@
 Склонируйте git-репозиторий и установите зависимости.
 
 ```bash
-git clone 
+git clone https://github.com/Dan1van/technical-inspection-website.git
+pip install -r requirements.txt
 ```
 
 ## Usage
