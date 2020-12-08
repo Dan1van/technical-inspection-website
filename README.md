@@ -1,6 +1,6 @@
 # Technical Inspection website
 
-![image](https://user-images.githubusercontent.com/40074918/96339303-89562980-109c-11eb-8d34-86bf8007de0d.png)
+![screencapture-127-0-0-1-5000-2020-12-08-13_29_19](https://user-images.githubusercontent.com/40074918/101473161-8966fd00-395a-11eb-8c7c-10a65d626b44.png)
 
 Веб-приложение, разработанное для проекта в университете. Основу составляет веб-фреймворк [Flask](https://flask.palletsprojects.com/en/1.1.x/) с дополнениями в виде библиотек: [flask-sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/), [flask-sequrity](https://pythonhosted.org/Flask-Security/), [flask-admin](https://flask-admin.readthedocs.io/en/latest/) и [flask-mail](https://pythonhosted.org/Flask-Mail/). Также в проекте была использована библиотека [wtforms](https://wtforms.readthedocs.io/en/2.3.x/fields/) для создания форм.
 
